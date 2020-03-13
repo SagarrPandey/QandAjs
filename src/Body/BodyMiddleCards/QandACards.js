@@ -13,7 +13,7 @@ const qandaCards = (props) =>{
       <StyleRoot>
         <Row className="m-3">
         <Col>
-        <a href="/">
+        <a href="/answer">
           <Card style={{cursor:'pointer',':hover':{boxShadow: "10px 10px"}}} >
             <Card.Header className="bg-light">
                 <Card.Text  className="badge badge-primary mr-2"><span className="badge badge-pill badge-dark">12</span> Vote</Card.Text>
