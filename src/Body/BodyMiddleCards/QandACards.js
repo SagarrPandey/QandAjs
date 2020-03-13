@@ -13,8 +13,8 @@ const qandaCards = (props) =>{
       <StyleRoot>
         <Row className="m-3">
         <Col>
-
-          <Card style={{cursor:'pointer',':hover':{boxShadow: "10px 10px"}}}>
+        <a href="/">
+          <Card style={{cursor:'pointer',':hover':{boxShadow: "10px 10px"}}} >
             <Card.Header className="bg-light">
                 <Card.Text  className="badge badge-primary mr-2"><span className="badge badge-pill badge-dark">12</span> Vote</Card.Text>
                 <Card.Text  className="badge badge-primary mr-2"><span className="badge badge-pill badge-dark">12</span> Answers</Card.Text>
@@ -44,7 +44,8 @@ const qandaCards = (props) =>{
                 </blockquote>
             </Card.Body>
           </Card>
-         
+          </a>
+      
         </Col>
       </Row>
       </StyleRoot>
