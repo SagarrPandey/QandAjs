@@ -17,7 +17,7 @@ class App extends Component {
     return (
       <Router>
         <Switch>
-        <Route exact path="/QandAjs" component="Home"><Home/></Route>
+        <Route exact path="/" component="Home"><Home/></Route>
         <Route exact path="/QandA" component="QandA"><QandA/></Route>
         <Route exact path="/Answer" component="Answer"><Answer/></Route>
         <Route exact path="/user" component="User"><Answer/></Route>
