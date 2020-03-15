@@ -1,11 +1,12 @@
 import React from 'react';
-import {Navbar,Nav,Container,Form,FormControl,Button} from 'react-bootstrap';
-
+import {Navbar,Nav,Container,Form,Button,Image} from 'react-bootstrap';
 import '../Static/css/qanda/style.css';
 import '../Static/css/bootstrap.css';
 import '../Static/css/style.css';
 import '../Static/css/navbar/navbar.css'
 import { FaLaptopCode } from 'react-icons/fa';
+import UserImage from '../Static/img/avatar/avatar04.png'
+
 
 const navbar = () =>{
     return(
@@ -31,7 +32,9 @@ const navbar = () =>{
                         <Button size="sm" variant="outline-primary">Sign up</Button>
               </Nav.Link>
               
-
+              <Nav.Link  data-toggle="modal" data-target="#signup" href='user'>
+                    <Image src={UserImage}   className="nav-user-img" alt=""/>
+              </Nav.Link>
 
 
             </Nav>
