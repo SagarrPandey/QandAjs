@@ -15,8 +15,6 @@ class UserPage extends Component {
     return (
       <div >
           <Navbar/>
-
-
           <section id="main-body">
               <div className="container-custom">
                 <Row>
