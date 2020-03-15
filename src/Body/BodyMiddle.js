@@ -1,9 +1,9 @@
 import React from 'react';
 import {Col,Row} from 'react-bootstrap';
 import QandACard from './BodyMiddleCards/QandACards';
-import '../static/css/qanda/style.css';
-import '../static/css/bootstrap.css';
-import '../static/css/style.css';
+import '../Static/css/qanda/style.css';
+import '../Static/css/bootstrap.css';
+import '../Static/css/style.css';
 import Radium from 'radium';
 
 

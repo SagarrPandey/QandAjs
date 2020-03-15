@@ -7,10 +7,10 @@ import {
   useRouteMatch,
   useParams
 } from "react-router-dom";
-import Home from './pages/homePage';
-import QandA from './pages/QandAPage';
-import Answer from './pages/answerPage';
-import User from './pages/userPage';
+import Home from './Pages/homePage';
+import QandA from './Pages/QandAPage';
+import Answer from './Pages/answerPage';
+import User from './Pages/userPage';
 
 class App extends Component {
   render(){
@@ -20,7 +20,7 @@ class App extends Component {
         <Route exact path="/" component="Home"><Home/></Route>
         <Route exact path="/QandA" component="QandA"><QandA/></Route>
         <Route exact path="/Answer" component="Answer"><Answer/></Route>
-        <Route exact path="/user" component="User"><Answer/></Route>
+        <Route exact path="/user" component="User"><User/></Route>
         </Switch>
       </Router>
     );

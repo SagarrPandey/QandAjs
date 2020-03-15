@@ -1,16 +1,15 @@
 import React from 'react';
 import {Col,Row,Card} from 'react-bootstrap';
-import '../../static/css/qanda/style.css';
-import '../../static/css/bootstrap.css';
-import '../../static/css/style.css';
-import Radium, {StyleRoot} from 'radium';
+import '../../Static/css/qanda/style.css';
+import '../../Static/css/bootstrap.css';
+import '../../Static/css/style.css';
+
 
 
 
 
 const qandaCards = (props) =>{
     return(
-      <StyleRoot>
         <Row className="m-3">
         <Col>
         <a href="/answer">
@@ -48,8 +47,7 @@ const qandaCards = (props) =>{
       
         </Col>
       </Row>
-      </StyleRoot>
     )
 }
 
-export default Radium(qandaCards);
+export default qandaCards;

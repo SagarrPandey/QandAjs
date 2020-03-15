@@ -4,10 +4,10 @@ import Navbar from '../Navbar/Navbar';
 import BodyLeft from '../Body/BodyLeft';
 import AnswerCard from '../Body/BodyMiddleCards/answerCard';
 import BodyRight from '../Body/BodyRight';
-import '../static/css/qanda/style.css';
-import '../static/css/bootstrap.css';
-import '../static/css/style.css';
-import avatar from '../static/img/avatar/avatar2.png'
+import '../Static/css/qanda/style.css';
+import '../Static/css/bootstrap.css';
+import '../Static/css/style.css';
+import avatar from '../Static/img/avatar/avatar2.png'
 
 
 

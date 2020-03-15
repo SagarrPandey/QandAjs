@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import {Row,Col,Container,Card,Button} from 'react-bootstrap';
 import Navbar from '../Navbar/Navbar';
-import '../static/css/qanda/style.css';
-import '../static/css/bootstrap.css';
-import '../static/css/style.css';
+import '../Static/css/qanda/style.css';
+import '../Static/css/bootstrap.css';
+import '../Static/css/style.css';
 
 
 

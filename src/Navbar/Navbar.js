@@ -1,7 +1,7 @@
 import React from 'react';
-import '../static/css/qanda/style.css';
-import '../static/css/bootstrap.css';
-import '../static/css/style.css';
+import '../Static/css/qanda/style.css';
+import '../Static/css/bootstrap.css';
+import '../Static/css/style.css';
 import { FaLaptopCode } from 'react-icons/fa';
 
 const navbar = () =>{

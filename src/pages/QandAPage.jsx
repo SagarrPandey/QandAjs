@@ -4,13 +4,13 @@ import Navbar from '../Navbar/Navbar';
 import BodyLeft from '../Body/BodyLeft';
 import BodyMiddle from '../Body/BodyMiddle';
 import BodyRight from '../Body/BodyRight';
-import '../static/css/qanda/style.css';
-import '../static/css/bootstrap.css';
-import '../static/css/style.css';
+import '../Static/css/qanda/style.css';
+import '../Static/css/bootstrap.css';
+import '../Static/css/style.css';
 
 
 
-class QandAPage extends Component {
+class QandAPage extends Component{
   render(){
     return (
       <div >

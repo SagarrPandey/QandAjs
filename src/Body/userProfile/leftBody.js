@@ -1,11 +1,11 @@
 import React from 'react';
 import {Row,Col} from 'react-bootstrap';
-import AbourCard from './userProfileCards/aboutCard';
+import AboutCard from './userProfileCards/aboutCard';
 import DashboardCard from './userProfileCards/dashboardCard';
-import '../../static/css/bootstrap.css';
-import '../../static/css/style.css';
-import '../../static/css/profile/p_style.css';
-import '../../static/img/avatar/avatar04.png'
+import '../../Static/css/bootstrap.css';
+import '../../Static/css/style.css';
+import '../../Static/css/profile/p_style.css';
+import avatar from '../../Static/img/avatar/avatar04.png'
 
 const leftBody = () =>{
     return(
@@ -14,7 +14,7 @@ const leftBody = () =>{
             <Row id="authors-details">
                 <Col className="col pb-3">
 
-                    <img src="avatar04.png" alt="" className="img-fluid rounded-circle"/>
+                    <img src={avatar} alt="" className="img-fluid rounded-circle"/>
                     <div className="profile-details ml-5">
                         <div className="f-3 "> Sagar Pandey </div>
                         <div className="f-2">B.C.A. Student at I.M.S. noida</div>
@@ -32,7 +32,7 @@ const leftBody = () =>{
                 </Col>
                 </Row>
     
-            <AbourCard/>
+            <AboutCard/>
             <DashboardCard/>
         </Col>
 

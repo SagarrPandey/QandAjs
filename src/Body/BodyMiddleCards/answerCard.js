@@ -1,8 +1,8 @@
 import React from 'react';
 import {Col,Row} from 'react-bootstrap';
-import '../../static/css/qanda/style.css';
-import '../../static/css/bootstrap.css';
-import '../../static/css/style.css';
+import '../../Static/css/qanda/style.css';
+import '../../Static/css/bootstrap.css';
+import '../../Static/css/style.css';
 import { IoMdArrowDropup,IoMdArrowDropdown } from 'react-icons/io';
 
 
