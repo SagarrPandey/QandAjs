@@ -11,7 +11,6 @@ const SignupComponent = (
             <div>
             <Modal.Header closeButton>
               <Modal.Title >One step away from Being a Part of Family</Modal.Title>
-                    
             </Modal.Header>
             <Modal.Body>
               <Form>
@@ -35,7 +34,6 @@ const SignupComponent = (
                   </Form.Group>          
               </Form> 
             </Modal.Body>
-           
             </div>
 )
 

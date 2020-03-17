@@ -57,13 +57,10 @@ class NavbarComponent extends Component {
                   <Nav.Link data-toggle="modal" className="text-primary" onClick={this.showLoginModal}>login</Nav.Link>
                   <Nav.Link>
                             <Button size="sm" variant="outline-primary" onClick={this.showSignupModal}>Sign up</Button>
-                  </Nav.Link>
-                  
+                  </Nav.Link> 
                   <Nav.Link  data-toggle="modal" data-target="#ignup" href='user'>
                         <Image src={UserImage}   className="nav-user-img" alt=""/>
                   </Nav.Link>
-
-
                 </Nav>
               </Navbar.Collapse>
 
@@ -80,7 +77,6 @@ class NavbarComponent extends Component {
               </Modal>
           </div>
         )
-
 }
 }
 

@@ -11,11 +11,9 @@ const LoginComponent =(
 <div>
             <Modal.Header closeButton>
               <Modal.Title >One step away from Being a Part of Family</Modal.Title>
-                    
             </Modal.Header>
             <Modal.Body>
               <Form>
-                  
                   <Form.Group>
                       <Form.Label>User Name/Email</Form.Label>
                       <Form.Control type="email" placeholder="Enter email"/>
@@ -24,7 +22,6 @@ const LoginComponent =(
                       <Form.Label>Password</Form.Label>
                       <Form.Control  type="password"  placeholder="Enter Password"/>
                   </Form.Group>
-                        
               </Form> 
             </Modal.Body>
            
