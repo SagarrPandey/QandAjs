@@ -67,7 +67,7 @@ class HomePage extends Component {
                   </div>
                   <div className="p-divider mb32"></div>
                   <div className="d-flex justify-content-center center">
-                      <h7>Stack Overflow is an open community for anyone that codes. We help you get answers to your toughest coding questions, share knowledge with your coworkers in private, and find your next dream job.</h7>
+                      <h6>Stack Overflow is an open community for anyone that codes. We help you get answers to your toughest coding questions, share knowledge with your coworkers in private, and find your next dream job.</h6>
                   </div>
               </Col>
           </Row>
@@ -137,7 +137,7 @@ class HomePage extends Component {
                           </div>
                           <div className="p-divider mb32"></div>
                           <div className="d-flex justify-content-center center">
-                              <h7>Stack Overflow is an open community for anyone that codes. We help you get answers to your toughest coding questions, share knowledge with your coworkers in private, and find your next dream job.</h7>
+                              <h6>Stack Overflow is an open community for anyone that codes. We help you get answers to your toughest coding questions, share knowledge with your coworkers in private, and find your next dream job.</h6>
                           </div>
                       </Col>
                   </Row>
